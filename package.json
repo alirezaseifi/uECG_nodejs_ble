@@ -1,0 +1,17 @@
+{
+  "name": "uecg_local",
+  "version": "1.0.0",
+  "description": "ECG local web viewer using bluetooth",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Alireza Seifi",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-23",
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  }
+}
